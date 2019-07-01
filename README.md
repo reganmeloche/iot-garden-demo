@@ -13,7 +13,7 @@ Here is the Hackster project: <insert link here>
 # Steps:
 1. Clone the repo and cd into the folder
 2. Upload the code in the .ino file onto the NodeMCU, which will be connected to the moisture sensor and water pump
-3. use `npm start` to run the web server
+3. Use `npm start` to run the web server
 4. While the NodeMCU is running, you should see periodic console logs of the moisture value
 5. Make a POST request to http://localhost:5000/water with the body { "seconds": 5 }, to trigger the pump to run for 5 seconds
 
