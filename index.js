@@ -36,7 +36,7 @@ client.on('message', (topic, message) => {
 });
 
 // Function to trigger the pump
-app.post('/api/water', (req, res) => {
+app.post('/water', (req, res) => {
     const { seconds } = req.body;
     console.log(`Triggering pump for ${seconds}...`);
     const milliseconds = seconds * 1000;
