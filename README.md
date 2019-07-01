@@ -1,2 +1,2 @@
 # iot-garden-demo
-Repository for IoT Garden tutorial
+Source-code for IoT Garden project
