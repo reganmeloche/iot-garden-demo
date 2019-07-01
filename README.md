@@ -5,9 +5,9 @@ This is the source-code for an IoT garden project. It allows for two-way communi
 Here is the Hackster project: <insert link here>
 
 # Pre-requisites:
-- Download Node.js and Postman
-- Download Postman
-- Sign up for CloudMQTT and start an instance of an MQTT broker. There is a free tier you can use
+- Download Node.js: https://nodejs.org/en/
+- Download Postman: https://www.getpostman.com/
+- Sign up for CloudMQTT and start an instance of an MQTT broker. There is a free tier you can use: https://www.cloudmqtt.com/
 - Follow the instructions on the Hackster project to set up the NodeMCU and the other devices on a breadboard
 
 # Steps:
