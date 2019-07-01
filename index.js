@@ -38,9 +38,10 @@ client.on('message', (topic, message) => {
 // Function to trigger the pump
 app.post('/water', (req, res) => {
     const { seconds } = req.body;
-    console.log(`Triggering pump for ${seconds}...`);
+    console.log(`Triggering pump for ${seconds} seconds...`);
     const milliseconds = seconds * 1000;
     client.publish(`${PUB_TOPIC}`, `${milliseconds}`);
+    res.status(200).end();
 });
 
 // Start the server
