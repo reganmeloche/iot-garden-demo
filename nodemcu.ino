@@ -59,7 +59,7 @@ void connectPubSub() {
   if (!client.connected()) {
     Serial.println("Connecting to MQTT server...");
       
-    if (client.connect('iot_garden_demo', MQTT_USER, MQTT_PASSWORD)) {
+    if (client.connect("iot_garden_demo", MQTT_USER, MQTT_PASSWORD)) {
        Serial.println("Connected to MQTT server");       
        client.setCallback(callback);
        client.subscribe(SUB_TOPIC);   
